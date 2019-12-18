@@ -68,8 +68,8 @@ clientMID = client.getProfile().mid
 loop = asyncio.get_event_loop()
 #admin =["uf54a6d6d897ead92d21e5beecb750c96"]
 #admin=["u8009af74c79fdb87a3958c336faf41c6"]
-admin=["u7a0bc5ff8a62dec8290475c89d7b6a24"]
-admin=["u7a0bc5ff8a62dec8290475c89d7b6a24"]
+admin=["u7af863629e3c422a4774605d5909e55f"]
+admin=["u7af863629e3c422a4774605d5909e55f"]
 #kikoadmin=["uc9af0b644dd5e18637a1e08bb62e115c"]
 
 botStart = time.time()
