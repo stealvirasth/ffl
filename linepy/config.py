@@ -21,7 +21,7 @@ class Config(object):
     LINE_LIFF_QUERY_PATH        = '/LIFF1'
 
     CHANNEL_ID = {
-        'LINE_TIMELINE': '1341209950',
+        'LINE_TIMELINE': '1341209850',
         'LINE_WEBTOON': '1401600689',
         'LINE_TODAY': '1518712866',
         'LINE_STORE': '1376922440',
@@ -29,14 +29,14 @@ class Config(object):
         'LINE_SERVICES': '1459630796'
     }
 
-    APP_TYPE    = ApplicationType._VALUES_TO_NAMES[400]
-    APP_VER     = '5.5.5'
+    APP_TYPE    = ApplicationType._VALUES_TO_NAMES[304]
+    APP_VER     = '8.11.0'
     CARRIER     = '51089, 1-0'
-    SYSTEM_NAME = 'Khie-Bots'
+    SYSTEM_NAME = 'Block'
     SYSTEM_VER  = '11.2.5'
     IP_ADDR     = '8.8.8.8'
     EMAIL_REGEX = re.compile(r"[^@]+@[^@]+\.[^@]+")
 
     def __init__(self):
-        self.APP_NAME = '%s\t%s\t%s\t%s' % (self.APP_TYPE, self.APP_VER, self.SYSTEM_NAME, self.SYSTEM_VER)
+        self.APP_NAME = 'CHROMEOS\t2.1.0\tCHROMEOS\t10.0.0'
         self.USER_AGENT = 'Line/%s' % self.APP_VER
